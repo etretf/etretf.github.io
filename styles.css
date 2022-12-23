@@ -1,41 +1,78 @@
-html, body{
-    margin:0;
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
-header{
- margin-bottom: 100px;
-}
-.navbar{
-    display: block;
-    margin-bottom: 100px;
-    padding: 35px;
-    background-color: rgb(43, 43, 43);
+nav {
+    height:70px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
 }
 
-.navElement{
-    float:right;
-    margin: -10px 20px 20px 20px;
+.navItems{
+    max-width: 1200px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navElement a {
+a{
     text-decoration: none;
-    color: white;
+    color:black;
+    transition: color 0.3s linear;
 }
 
-.navElement a:hover {
-    text-decoration: none;
-    color: inherit;
+.nameLink a{
+    font-size: 1em;
 }
 
-
-.intro {
-    display:block;
-    margin-left: 100px;
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:450px;
+    margin-bottom: 0;
 }
 
-footer{
-    background-color: rgb(43, 43, 43);
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 100px;
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PortfolioItems{
+    max-width: 1200px;
+    width: 80%;
+}
+
+.items{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 10%;    
+}
+
+.item{
+padding: 15px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skillTags{
+    display:flex;
+    gap:20px;
+}
+
+.tag{
+    background-color: rgb(115, 203, 232);
+    color:rgb(42, 54, 67);
+    padding: 3px 10px;
+    margin:0px;
+    border-radius: 10px;
+}
+
+.itemImage {
+    width:100%;
+    margin:15px;
 }
