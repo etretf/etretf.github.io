@@ -7,10 +7,6 @@
     <title>Portfolio | Emma Souannhaphanh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
@@ -24,28 +20,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="topNav">
-      <div class="navItems">
-        <div class="nameLink">
-          <a href="index.html">Emma Souannhaphanh</a>
-        </div>
-        <ul class="navLinks">
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
     <section class="header">
+      <nav class="topNav">
+        <div class="navItems">
+          <div class="nameLink">
+            <a href="index.html">Emma Souannhaphanh</a>
+          </div>
+          <ul class="navLinks">
+            <li><a href="#">Resume</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#AboutMe">About me</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
       <div class="intro">
         <h1>Hello, I'm Emma.</h1>
-        <h2><span>Interactive Multimedia and Design Student</span></h2>
+        <h2 id="animated">
+          <span>Interactive Multimedia and Design Student</span>
+        </h2>
         <a id="downArrow" href="#Portfolio"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
+            width="50"
+            height="50"
             fill="black"
             class="bi bi-chevron-down"
             viewBox="0 0 16 16"
@@ -64,89 +62,104 @@
         <hr />
         <div class="items">
           <!--Tooth and Nail-->
-          <div class="item">
-            <div class="skillsTags">
-              <span class="tag">UI/UX</span>
-            </div>
-            <img
-              class="itemImage"
-              src="images/Tooth and Nail Mockup.png"
-              alt="image of Tooth and Nail mockups on laptop and phone"
-            />
-            <div class="description">
-              <div class="descItems">
-                <h3 class="itemTitle">Tooth and Nail Redesign</h3>
-                <p class="itemDetails">
-                  Redesigning Tooth and Nail's web interface, branding, and
-                  logos.
-                </p>
+          <a class="itemLink" href="#">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">UI/UX</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/Tooth and Nail Mockup.png"
+                alt="image of Tooth and Nail mockups on laptop and phone"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">Tooth and Nail Redesign</h3>
+                  <p class="itemDetails">
+                    Redesigning Tooth and Nail's web interface, branding, and
+                    logos.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
           <!--Tooth and Nail-->
-          <div class="item">
-            <div class="skillsTags">
-              <span class="tag">UI/UX</span>
-            </div>
-            <img
-              class="itemImage"
-              src="images/Tooth and Nail Mockup.png"
-              alt="image of Tooth and Nail mockups on laptop and phone"
-            />
-            <div class="description">
-              <div class="descItems">
-                <h3 class="itemTitle">Tooth and Nail Redesign</h3>
-                <p class="itemDetails">
-                  Redesigning Tooth and Nail's web interface, branding, and
-                  logos.
-                </p>
+          <a class="itemLink" href="#">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">UI/UX</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/Tooth and Nail Mockup.png"
+                alt="image of Tooth and Nail mockups on laptop and phone"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">Tooth and Nail Redesign</h3>
+                  <p class="itemDetails">
+                    Redesigning Tooth and Nail's web interface, branding, and
+                    logos.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
-    <section id="About Me" class="About Me">
+    <section id="AboutMe" class="About">
       <div class="content">
         <h3 class="subheading">About Me</h3>
         <hr size="1px" width="100%" color="black" />
         <div class="icon">
           <img
-            src="images/Emma Icon Boring.png"
+            id="myIcon"
+            src="images/Emma Icon Normal.png"
             alt="Cartoon drawing of Emma"
           />
         </div>
         <div class="aboutText">
           <h4 class="Welcome">Welcome to my site!</h4>
+          <br />
           <p>
-            Hello there! I am Emma Souannhaphanh. I am a second year student in
-            the Interactive Multimedia and Design (Bachelor of Information
-            Technology) program at Carleton University and Algonquin College. In
-            my program, I am studying user experience/user interface design, web
-            design and development, interactive media, animation, video games,
-            and more.
+            Hello there!<span style="font-size: 20px">&#128075;</span> I am Emma
+            Souannhaphanh. <br /><br />
+            I am a second year student in the
+            <strong>Interactive Multimedia and Design</strong>
+            (Bachelor of Information Technology) program at Carleton University
+            and Algonquin College. In my program, I am studying UI/UX design,
+            web design and development, interactive media, animation, video
+            games, and more!
           </p>
           <br />
           <p>
             I am most interested in web design and development and UI/UX design.
-            I would like to focus on creating accessiblea and user-friendly
-            interfaces that will meet end users needs.
+            I would like to focus on creating <em>accessible</em> and
+            <em>user-friendly</em>
+            interfaces that will meet end users' needs.
           </p>
           <br />
           <p>
-            Outside of school, my hobbies include writing music, making art,
-            rock climbing, and badminton.
+            Outside of school, my hobbies include writing music &#127925;,
+            making art &#127912;, rock climbing, and badminton
+            <span style="font-size: 20px">&#127992;</span>. I would like to be a
+            rock in my next life <span style="font-size: 20px">&#129704;</span>.
           </p>
         </div>
       </div>
     </section>
     <footer>
-      <div class="footerContent">
+      <div id="Contact" class="footerContent">
         <div class="social">
           <h2>Let's get in touch :)</h2>
-          <a id="email" href="mailto: amina.ottawa@gmail.com"
-            >emmasouannhaphanh@cmail.carleton.ca</a
+          <span
+            >Send me an email at
+            <a id="email" href="mailto: emmasouannhaphanh@cmail.carleton.ca"
+              >emmasouannhaphanh@cmail.carleton.ca</a
+            ></span
           >
+          <div>Check out my <a href="#">resume!</a></div>
           <div class="iconLinks">
             <a href="#">
               <img
@@ -158,12 +171,13 @@
             <a href="#">
               <img
                 class="iconLink"
-                src="images/linkedin-png-linkedin-icon-1600-1876720065.png"
-                alt="Github icon"
+                src="images/linkedin.png"
+                alt="LinkedIn icon"
               />
             </a>
           </div>
         </div>
+        <div class="credits">Emma Souannhaphanh © 2022</div>
       </div>
     </footer>
   </body>
