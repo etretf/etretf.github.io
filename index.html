@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Emma Souannhaphanh</title>
+    <title>&#128526;Portfolio | Emma Souannhaphanh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +18,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/4da7404164.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section class="header">
@@ -26,7 +30,10 @@
           <div class="nameLink">
             <a href="index.html">Emma Souannhaphanh</a>
           </div>
-          <ul class="navLinks">
+          <button aria-controls="otherLinks" aria-expanded="false" class="hamburger" id="hamburger">
+            <span></span>
+          </button>
+          <ul class="navLinks" id="nav-ul">
             <li><a href="#">Resume</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
             <li><a href="#AboutMe">About me</a></li>
@@ -83,23 +90,23 @@
               </div>
             </div>
           </a>
-          <!--Tooth and Nail-->
+          <!--EZPZ Converter-->
           <a class="itemLink" href="#">
             <div class="item">
               <div class="skillsTags">
                 <span class="tag">UI/UX</span>
+                <span class="tag">Web Development</span>
               </div>
               <img
                 class="itemImage"
-                src="images/Tooth and Nail Mockup.png"
-                alt="image of Tooth and Nail mockups on laptop and phone"
+                src="images/ezpz laptop mockup.png"
+                alt="image of EZPZ Converter mockup on laptop"
               />
               <div class="description">
                 <div class="descItems">
-                  <h3 class="itemTitle">Tooth and Nail Redesign</h3>
+                  <h3 class="itemTitle">EZ PZ Unit Converter</h3>
                   <p class="itemDetails">
-                    Redesigning Tooth and Nail's web interface, branding, and
-                    logos.
+                    Unit converter website for quick and simple conversions.
                   </p>
                 </div>
               </div>
@@ -159,16 +166,16 @@
               >emmasouannhaphanh@cmail.carleton.ca</a
             ></span
           >
-          <div>Check out my <a href="#">resume!</a></div>
+          <span>Check out my <a href="#">resume!</a></span>
           <div class="iconLinks">
-            <a href="#">
+            <a href="https://github.com/etretf" target="_blank">
               <img
                 class="iconLink"
                 src="images/github-mark.png"
                 alt="Github icon"
               />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/emmasou/" target="_blank">
               <img
                 class="iconLink"
                 src="images/linkedin.png"

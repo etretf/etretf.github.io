@@ -35,11 +35,18 @@ a{
 }
 
 .navLinks{
-    list-style: none;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     width:450px;
-    margin-bottom: 0;
+    margin:0;
+    padding: 0;
+}
+
+.hamburger{
+    border:none;
+    cursor: pointer;
+    display: none;
 }
 
 .intro{
@@ -81,6 +88,83 @@ a{
  gap: 10%;    
 }
 
+@media only screen and (max-width: 900px) {
+   .nameLink{
+        margin-top: 15px;
+   }
+    .navLinks{
+        font-size: 1em;
+    }
+    .intro{
+        font-size: 1em;
+    }
+    .navItems{
+    max-width: 1200px;
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    }
+    .navItems > ul{
+    margin-top:20px;
+}
+.navLinks{
+    width:80%;
+}
+}
+@media only screen and (max-width: 768px)
+{
+    .nameLink {
+            font-size: 1em;
+        }
+
+    .items{
+        display:flex;
+        flex-direction: column;
+    }
+    .item{
+        margin:1em 0;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .content div{
+        text-align: center;
+        margin:0 auto;
+        width:100%;
+    }
+
+    .content img{
+        margin-bottom: -50px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    width: 100%;
+    gap: 2em;
+    }
+.navItems {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.navItems li a{
+    font-size: 0.9em;
+}
+
+.social span{
+    font-size: 0.8em;
+}
+}
+
 
 .item{
 padding: 15px;
@@ -91,15 +175,18 @@ transition: transform 0.25s;
 .item:hover{
     transform: scale(101%);
 }
-
+.itemImage{
+    width:100%;
+    object-fit: contain;
+}
 .skillTags{
     display:flex;
     gap:20px;
 }
 
 .tag{
-    background-color: rgb(115, 203, 232);
-    color:rgb(42, 54, 67);
+    background-color: rgb(175, 235, 255);
+    color:rgb(46, 62, 80);
     padding: 3px 10px;
     margin:0px;
     border-radius: 10px;
