@@ -43,12 +43,6 @@ a{
     padding: 0;
 }
 
-.hamburger{
-    border:none;
-    cursor: pointer;
-    display: none;
-}
-
 .intro{
     max-width: 1200px;
     width:80%;

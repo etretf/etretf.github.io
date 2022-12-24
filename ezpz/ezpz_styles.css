@@ -1,0 +1,58 @@
+#heroEZPZ{
+    width:100%;
+    margin-bottom: 2em;
+}
+
+.overview, .concept, .process{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+
+hr {
+    width: 80%;
+    max-width: 1200px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(49, 48, 78);
+}
+
+.keyFeatures{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.keyFeaturesContent{
+    display:flex;
+    flex-wrap: wrap;     
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap:10%;
+    align-items: center;
+}
+
+.feature h3 {
+    margin:0 0 20px 0;
+    font-weight: 700;
+}
+.keyFeatures img{
+    width:100%;
+}
+
+.featureGIF {
+    flex:40%;
+}
+
+.feature{
+    flex:50%;
+}
