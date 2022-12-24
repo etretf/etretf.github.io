@@ -1,3 +1,10 @@
+#returnArrow{
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:20px;
+}
+
 #heroEZPZ{
     width:100%;
     margin-bottom: 2em;
@@ -11,6 +18,19 @@
     margin:0 auto;
     margin-bottom:50px;
 }
+
+.conclusion{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.conclusionItem{
+    flex:50%;
+}
+
 
 hr {
     width: 80%;
@@ -39,6 +59,7 @@ h4 {
     justify-content: space-between;
     gap:10%;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .feature h3 {
