@@ -1,8 +1,38 @@
+.websiteLink{
+    display:flex;
+    justify-content: center;
+    margin:2vw;
+}
+
+.websiteLink div{
+    background-color: rgb(53, 89, 205);
+    padding:1vw;
+    border-radius:10px;
+    transition: transform 0.3s;    
+}
+
+.websiteLink div:hover {
+   transform: scale(103%);
+}
+
+.websiteLink a{
+    color:white;
+}
+.websiteLink a:hover {
+    color: rgb(206, 206, 206);
+
+}
+
 #returnArrow{
     position:fixed;
     bottom:0;
     right:0;
     margin:20px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2vw;
 }
 
 #heroEZPZ{
@@ -28,9 +58,8 @@
 }
 
 .conclusionItem{
-    flex:50%;
+    width:70%;
 }
-
 
 hr {
     width: 80%;
@@ -41,6 +70,9 @@ hr {
 
 h4 {
     color: rgb(49, 48, 78);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5vw;
 }
 
 .keyFeatures{
@@ -65,10 +97,9 @@ h4 {
 .feature h3 {
     margin:0 0 20px 0;
     font-weight: 700;
+    font-size: 2.5vw;
 }
-.keyFeatures img{
-    width:100%;
-}
+
 
 .featureGIF {
     flex:40%;
@@ -76,4 +107,119 @@ h4 {
 
 .feature{
     flex:50%;
+}
+
+img{
+   width: 100%;
+}
+.process img{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+}
+
+.styleGuide{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.styleGuide img{
+    width:40%;
+    margin:1%;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.styleGuide img:hover{
+    transform: scale(101%);
+}
+
+@media only screen and (max-width: 900px)
+{
+    .header{
+        height:100px;
+    }
+    .styleGuide img {
+        width: 80%;
+        margin: 1%;
+    }
+    h2{
+        font-size: 2.5vw;
+    }
+    h4{
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+    p{
+        font-size:1.7vw;
+    }
+    .feature h3 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .feature h3 {
+        font-size: 4vw;
+    }
+
+    .process img{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    }   
+
+        .overview,
+        .concept,
+        .process {
+            margin-bottom: 1vh;
+        }
+        hr{
+            margin-bottom: 2vh;
+        }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .social h2{
+        font-size: 4vw;
+    }
+    .overviewItem p{
+        font-size: 2vw;
+    }
+    p {
+        font-size: 2.4vw;
+    }
+    h4{
+        font-size: 3vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .featureGIF {
+        flex: 80%;
+    }
+
+    .feature {
+        flex: 100%;
+    }
+
+    .keyFeaturesContent {
+        margin-bottom: 10vh;
+    }
+
+    .websiteLink div{
+        padding:1.5vw;
+    }
+        .websiteLink a {
+            color: white;
+            font-size: 3vw;
+        }
 }
