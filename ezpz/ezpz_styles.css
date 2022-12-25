@@ -1,7 +1,7 @@
 .websiteLink{
     display:flex;
     justify-content: center;
-    margin:2vw;
+    margin:2vw 2vw 4vw 2vw;
 }
 
 .websiteLink div{
@@ -33,6 +33,10 @@
 h2 {
     font-weight: 700;
     font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.8vw;
 }
 
 #heroEZPZ{
@@ -136,11 +140,12 @@ img{
 
 @media only screen and (max-width: 900px)
 {
+
     .header{
         height:100px;
     }
     .styleGuide img {
-        width: 80%;
+        width: 100%;
         margin: 1%;
     }
     h2{
@@ -159,17 +164,22 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
-    h2 {
-        font-size: 2.5vw;
+    h2{
+        font-size: 4.5vw;
     }
 
-    h4 {
-        font-size: 2vw;
-        margin-bottom: 2vw;
+    p {
+        font-size: 3.5vw;
     }
 
-    .feature h3 {
-        font-size: 4vw;
+    h3{
+        font-size:4vw;
+    }
+
+    h4{
+        font-size: 3.7vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
     .process img{
@@ -185,24 +195,26 @@ img{
         hr{
             margin-bottom: 2vh;
         }
+        .conclusionItem {
+            width: 100%;
+        }
+    .overview{
+        width:80%;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        margin-bottom: 3vw;
+    }
+
+    .overviewItem{
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width: 500px)
 {
-    .social h2{
-        font-size: 4vw;
-    }
-    .overviewItem p{
-        font-size: 2vw;
-    }
-    p {
-        font-size: 2.4vw;
-    }
-    h4{
-        font-size: 3vw;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
+   
     .featureGIF {
         flex: 80%;
     }
@@ -216,10 +228,10 @@ img{
     }
 
     .websiteLink div{
-        padding:1.5vw;
+        padding:2vw;
     }
         .websiteLink a {
             color: white;
-            font-size: 3vw;
+            font-size: 4vw;
         }
 }
