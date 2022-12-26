@@ -69,6 +69,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2vw;
 }
 
 .PortfolioItems{
@@ -188,6 +189,7 @@ transition: transform 0.25s;
 
 .itemImage {
     width:100%;
+    height:250px;
     margin:15px;
 }
 

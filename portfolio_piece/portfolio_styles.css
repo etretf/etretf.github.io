@@ -1,0 +1,180 @@
+.websiteLink {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 2vw 4vw 2vw;
+}
+
+.websiteLink div {
+    background-color: rgb(53, 89, 205);
+    padding: 1vw;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.websiteLink div:hover {
+    transform: scale(103%);
+}
+
+.websiteLink a {
+    color: white;
+    text-align: center;
+}
+
+.websiteLink a:hover {
+    color: rgb(206, 206, 206);
+
+}
+
+#returnArrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.8vw;
+}
+
+#hero {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.concept {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+.conclusion {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.conclusionItem {
+    width: 70%;
+}
+
+hr {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: rgb(49, 48, 78);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5vw;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .header {
+        height: 100px;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    p {
+        font-size: 1.7vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 4.5vw;
+    }
+
+    p {
+        font-size: 3.5vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-size: 3.7vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .process img {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+    }
+
+    .overview,
+    .concept {
+        margin-bottom: 1vh;
+    }
+
+    hr {
+        margin-bottom: 2vh;
+    }
+
+    .conclusionItem {
+        width: 100%;
+    }
+
+    .overview {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3vw;
+    }
+
+    .overviewItem {
+        text-align: center;
+        width: 100%;
+    }
+
+    .websiteLink div {
+        padding: 2vw;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .websiteLink a {
+        font-size: 4vw;
+    }
+}

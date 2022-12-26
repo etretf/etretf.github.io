@@ -47,6 +47,7 @@ h3 {
 .overview, .concept, .process{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 80%;
     max-width: 1200px;
     margin:0 auto;
@@ -164,6 +165,7 @@ img{
 }
 
 @media only screen and (max-width: 768px) {
+    
     h2{
         font-size: 4.5vw;
     }
@@ -200,14 +202,13 @@ img{
         }
     .overview{
         width:80%;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
         margin: 0 auto;
         margin-bottom: 3vw;
     }
 
     .overviewItem{
         text-align: center;
+        width:100%;
     }
 
 }
@@ -233,5 +234,6 @@ img{
         .websiteLink a {
             color: white;
             font-size: 4vw;
+            text-align: center;
         }
 }
