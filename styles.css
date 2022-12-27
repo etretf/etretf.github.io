@@ -3,6 +3,13 @@
     font-family: 'Poppins';
 }
 
+#returnArrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
 .header{
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(220, 219, 168, 1) 50%, rgba(148, 163, 233, 1) 100%);
@@ -80,7 +87,11 @@ a{
 .items{
  display: grid;
  grid-template-columns: repeat(2,1fr);
- gap: 10%;    
+ gap: 3%;    
+}
+
+.item{
+    padding:1vw;
 }
 
 @media only screen and (max-width: 900px) {
@@ -174,6 +185,7 @@ transition: transform 0.25s;
     width:100%;
     object-fit: contain;
 }
+
 .skillTags{
     display:flex;
     gap:20px;
@@ -214,6 +226,10 @@ width:40%;
 }
 #myIcon:hover{
     content: url("images/Emma Icon.png")
+}
+
+.About{
+    margin-top: 100px;
 }
 
 .aboutText{

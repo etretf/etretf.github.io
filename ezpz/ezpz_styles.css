@@ -171,7 +171,7 @@ img{
     }
 
     p {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
 
     h3{
@@ -236,4 +236,7 @@ img{
             font-size: 4vw;
             text-align: center;
         }
+      p {
+        font-size: 3.5vw;
+    }
 }

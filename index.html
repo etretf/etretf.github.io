@@ -24,7 +24,23 @@
     ></script>
   </head>
   <body>
-    <section class="header">
+    <!--make floating return arrow in bottom left corner of screen-->
+    <a id="returnArrow" href="#top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="currentColor"
+        class="bi bi-arrow-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+        />
+      </svg>
+    </a>
+    <section id="top" class="header">
       <nav class="topNav">
         <div class="navItems">
           <div class="nameLink">
@@ -65,28 +81,6 @@
         <h2 class="sectionTitle">Portfolio</h2>
         <hr />
         <div class="items">
-          <!--React Weather App-->
-          <a class="itemLink" href="react_weatherapp/weatherapp.html">
-            <div class="item">
-              <div class="skillsTags">
-                <span class="tag">Web Development</span>
-                <span class="tag">React</span>
-              </div>
-              <img
-                class="itemImage"
-                src="images/Thumbnail React.png"
-                alt="image of React Weather App mockup on a laptop"
-              />
-              <div class="description">
-                <div class="descItems">
-                  <h3 class="itemTitle">React Weather App</h3>
-                  <p class="itemDetails">
-                    Weather app with forecast using React and APIs.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
           <!--EZPZ Converter-->
           <a class="itemLink" href="ezpz/ezpz.html">
             <div class="item">
@@ -109,6 +103,28 @@
               </div>
             </div>
           </a>
+          <!--React Weather App-->
+          <a class="itemLink" href="react_weatherapp/weatherapp.html">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">Web Development</span>
+                <span class="tag">React</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/Thumbnail React.png"
+                alt="image of React Weather App mockup on a laptop"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">React Weather App</h3>
+                  <p class="itemDetails">
+                    Weather app with forecast using React and APIs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
           <!--Pure JS Weather App-->
           <a class="itemLink" href="js_weatherapp/js_weatherapp.html">
             <div class="item">
@@ -124,7 +140,7 @@
                 <div class="descItems">
                   <h3 class="itemTitle">Pure JS Weather App</h3>
                   <p class="itemDetails">
-                    Weather app with forecast using pure JS.
+                    Weather app with forecast and geolocation.
                   </p>
                 </div>
               </div>
@@ -134,8 +150,8 @@
           <a class="itemLink" href="portfolio_piece/portfolio.html">
             <div class="item">
               <div class="skillsTags">
-                <span class="tag">Web Development</span>
                 <span class="tag">UI</span>
+                <span class="tag">Web Development</span>
               </div>
               <img
                 class="itemImage"
@@ -147,6 +163,72 @@
                   <h3 class="itemTitle">HTML and CSS Portfolio</h3>
                   <p class="itemDetails">
                     Generic portfolio site using pure HTML and CSS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--Earth's Own Storyboards, Mascot, Advertisement Rebranding-->
+          <a class="itemLink" href="oatmilk/oatmilk.html">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">Illustration</span>
+                <span class="tag">Graphic Design</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/Thumbnail Otis.png"
+                alt="Advertisement with Earth's Own Oat Milk with text that reads 'Choose plant-powered Choose oat milk Choose Earth's Own' with a anthropomorphic plant character holding a leaf shovel"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">Earth's Own Oat Milk Rebranding</h3>
+                  <p class="itemDetails">
+                    Characters, storyboards, and an advertisement.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--Catra Quiz-->
+          <a class="itemLink" href="quiz/quiz.html">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">UI</span>
+                <span class="tag">Web Development</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/Thumbnail EZPZ.png"
+                alt="image of EZPZ Converter mockup on laptop and phone"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">Catra Quiz</h3>
+                  <p class="itemDetails">
+                    Unit converter website for quick and simple conversions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--Animation-->
+          <a class="itemLink" href="animation/animation.html">
+            <div class="item">
+              <div class="skillsTags">
+                <span class="tag">3D Animation</span>
+                <span class="tag">Maya</span>
+              </div>
+              <img
+                class="itemImage"
+                src="images/TWJ 1(2).png"
+                alt="image of EZPZ Converter mockup on laptop and phone"
+              />
+              <div class="description">
+                <div class="descItems">
+                  <h3 class="itemTitle">Toying With Jerry</h3>
+                  <p class="itemDetails">
+                    Two person scene with a devious character.
                   </p>
                 </div>
               </div>
