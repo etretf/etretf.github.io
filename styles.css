@@ -90,8 +90,125 @@ a{
  gap: 3%;    
 }
 
+.itemImage{
+    display:block;
+    float:left;
+    padding: 1vw;
+    margin:0 auto;
+    object-fit: contain;
+    height: 300px;
+    width:100%;
+}
+#Art{
+    object-fit: cover;
+}
 .item{
     padding:1vw;
+    margin:0 auto;
+    height:450px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.25s;
+}
+
+.item:hover {
+    transform: scale(101%);
+}
+
+.skillTags {
+    display: flex;
+    gap: 20px;
+}
+
+.tag {
+    background-color: rgb(175, 235, 255);
+    color: rgb(46, 62, 80);
+    padding: 3px 10px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+
+.content {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    border: 1px black;
+    width: 40%;
+}
+
+#myIcon {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+
+#myIcon:hover {
+    content: url("images/Emma Icon.png")
+}
+
+.About {
+    margin-top: 100px;
+}
+
+.aboutText {
+    width: 60%;
+}
+
+footer {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(220, 219, 168, 1) 50%, rgba(148, 163, 233, 1) 100%);
+}
+
+.footerContent {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social h2 {
+    font-weight: 900;
+}
+
+.social a {
+    font-weight: 700;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.iconLinks {
+    display: flex;
+    gap: 25px;
+}
+
+.iconLink {
+    width: 50px;
+}
+
+
+.credits {
+    margin: 4em 0 1em 0;
+}
+
+@media only screen and (max-width:1100px){
+    .item{
+        height:500px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -115,10 +232,10 @@ a{
     }
     .navItems > ul{
     margin-top:20px;
-}
-.navLinks{
+    }
+    .navLinks{
     width:80%;
-}
+    }
 }
 @media only screen and (max-width: 768px)
 {
@@ -132,6 +249,7 @@ a{
     }
     .item{
         margin:1em 0;
+        height:auto;
     }
     .content {
         flex-direction: column;
@@ -171,110 +289,4 @@ a{
 }
 }
 
-
-.item{
-padding: 15px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: transform 0.25s;
-}
-
-.item:hover{
-    transform: scale(101%);
-}
-.itemImage{
-    width:100%;
-    object-fit: contain;
-}
-
-.skillTags{
-    display:flex;
-    gap:20px;
-}
-
-.tag{
-    background-color: rgb(175, 235, 255);
-    color:rgb(46, 62, 80);
-    padding: 3px 10px;
-    margin:0px;
-    border-radius: 10px;
-}
-
-.itemImage {
-    width:100%;
-    height:250px;
-    margin:15px;
-}
-
-.content {
-    max-width: 1200px;
-    width:80%;
-    margin:0 auto;
-    padding-top: 100px;
-    display:flex;
-    flex-wrap: wrap;
-}
-
-.icon {
-border: 1px black;
-width:40%;
-}
-
-#myIcon {
-    width:100%;
-    height:80%;
-    object-fit: contain;
-}
-#myIcon:hover{
-    content: url("images/Emma Icon.png")
-}
-
-.About{
-    margin-top: 100px;
-}
-
-.aboutText{
-width:60%;
-}
-
-footer{
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(220, 219, 168, 1) 50%, rgba(148, 163, 233, 1) 100%);
-}
-
-.footerContent{
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.social h2{
-    font-weight: 900;
-}
-.social a{
-    font-weight:700;
-}
-.social{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-}
-
-.iconLinks{
-    display:flex;
-    gap:25px;
-}
-
-.iconLink{
-    width:50px;
-}
-
-
-.credits{
-    margin: 4em 0 1em 0;
-}
 

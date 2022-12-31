@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#128526;Portfolio | Emma Souannhaphanh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="art.css" />
+  </head>
+  <body>
+    <!--make floating return arrow in bottom left corner of screen-->
+    <a id="returnArrow" href="#top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="currentColor"
+        class="bi bi-arrow-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+        />
+      </svg>
+    </a>
+    <section class="header">
+      <nav class="topNav">
+        <div class="navItems">
+          <div class="nameLink">
+            <a href="../index.html">Emma Souannhaphanh</a>
+          </div>
+          <ul class="navLinks">
+            <li><a href="#">Resume</a></li>
+            <li><a href="../index.html#Portfolio">Portfolio</a></li>
+            <li><a href="../index.html#AboutMe">About me</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="top">
+      <img
+        id="hero"
+        src="images/heroArt.png"
+        alt="Image of painting of a sunset sky with text that reads 'Art and Illustration'"
+      />
+      <!--Art content start-->
+      <div class="gallery min-vh-100">
+        <div class="container-sm">
+          <div class="row gy-4 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+              <img src="images/assassin.png" class="gallery-item" alt="Assassin Vengeresse (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Napoleon Spongebob.jpg" class="gallery-item" alt="Napoleon Spongebob (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Squidward Scream.jpg" class="gallery-item" alt="Squidward Scream (2022)" />
+            </div>            
+            <div class="col">
+              <img src="images/Fear.png" class="gallery-item" alt="Fear (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Fields.png" class="gallery-item" alt="A Thousand Sunsets With You (2022)" />
+            </div>
+
+            <div class="col">
+              <img src="images/Cute Character.jpg" class="gallery-item" alt="Disney Archetype: Cute (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Goofy Character.jpg" class="gallery-item" alt="Disney Archetype: Goofy (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Heavy Character.jpg" class="gallery-item" alt="Disney Archetype: Heavy (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Screwball Character.jpg" class="gallery-item" alt="Disney Archetype: Screwball (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/Pumpken.jpg" class="gallery-item" alt="Disney Archetype: Heavy Pumpken (2022)" />
+            </div>
+            <div class="col">
+              <img src="images/ill idan.png" class="gallery-item" alt="Illidan (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/duhk lines 2.png" class="gallery-item" alt="Duhk (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/Luggy Fatale.png" class="gallery-item" alt="Luggy Fatale (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/Viran V.png" class="gallery-item" alt="Viran (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/Prasi.png" class="gallery-item" alt="Prasi (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/Crest Pose 2.png" class="gallery-item" alt="Crest (2021)" />
+            </div>
+            <div class="col">
+              <img src="images/Briar 1.png" class="gallery-item" alt="Briar (2021)" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="gallery-modal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="" alt="modal image" class="modal-img">
+                <div id="caption"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="Contact" class="footerContent">
+        <div class="social">
+          <h2>Let's get in touch :)</h2>
+          <span
+            >Send me an email at
+            <a id="email" href="mailto: emmasouannhaphanh@cmail.carleton.ca"
+              >emmasouannhaphanh@cmail.carleton.ca</a
+            ></span
+          >
+          <div>Check out my <a href="#">resume!</a></div>
+          <div class="iconLinks">
+            <a href="https://github.com/etretf" target="_blank">
+              <img
+                class="iconLink"
+                src="../images/github-mark.png"
+                alt="Github icon"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/emmasou/" target="_blank">
+              <img
+                class="iconLink"
+                src="../images/linkedin.png"
+                alt="LinkedIn icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="credits">Emma Souannhaphanh © 2022</div>
+      </div>
+    </footer>
+    <script src="art.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
